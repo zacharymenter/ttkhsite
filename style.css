@@ -36,3 +36,8 @@ li:hover {
 #logo_li {
     border-left: none;
 }
+
+a {
+    color: inherit;
+    text-decoration: none;
+}

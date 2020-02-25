@@ -50,8 +50,10 @@ nav ul li a {
 
 .big-image {
     width: 100%;
-    opacity: 40%;
+    opacity: 50%;
     position: relative;
+
+    animation: fadeout 4s;
 }
 
 .main-image {
@@ -73,6 +75,11 @@ nav ul li a {
 @keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
+}
+
+@keyframes fadeout {
+    from { opacity: 80%; }
+    to   { opacity: 50%; }
 }
 
 .info-box {

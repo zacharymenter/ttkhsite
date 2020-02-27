@@ -4,6 +4,7 @@
     font-family: sans-serif;
 }
 
+
 nav {
     position: sticky;
     top: 0;
@@ -34,7 +35,8 @@ nav ul li:hover {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    width: 6%;
+    min-width: 80px;
+    width: 7%;
     
 }
 
@@ -50,19 +52,24 @@ nav ul li a {
     padding: 13px;
 }
 
-.big-image {
-    width: 100%;
-    opacity: 40%;
-    position: relative;
-
-    animation: fadeout 4s;
+.index-background {
+    background-color: black;
 }
 
-.home-image {
+.parallax {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: black;
+    position: relative;
+    opacity: 40%;
+    animation: fadeout 4s;
+    background-image: url("sources/images/ttkhbigstage.jpg");
+    min-height: 800px;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .logo {
@@ -70,6 +77,8 @@ nav ul li a {
     justify-content: center;
     position: absolute;
     width: 40%;
+    top: 30%;
+    left: 30%;
 
     animation: fadein 4s;
 }
@@ -102,7 +111,7 @@ nav ul li a {
 }
 
 .info-img {
-    width: 45%;
+    height: 340px;
 }
 
 .info-box-text {
@@ -129,6 +138,8 @@ nav ul li a {
     color: white;
     text-decoration: none;
     border: solid rgb(39, 39, 39) 4px;
+    position: relative;
+    top: 30px;
 }
 
 .info-box-link-w {
@@ -138,4 +149,7 @@ nav ul li a {
     color: black;
     text-decoration: none;
     border: solid rgb(202, 202, 202) 4px;
+    position: relative;
+    top: 30px;
 }
+

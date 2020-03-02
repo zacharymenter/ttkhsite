@@ -2,13 +2,13 @@
 <html lang="en">
     <head>
         <title>TTKH | Rock Band</title>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="css/style.css">
     </head>
 
     <body>
         <nav>
             <ul>
-                <li id="logo-li"><img class="head-logo" src="sources/images/ttkhlogonowords.png" alt="TTKH Logo"></li>
+                <li id="logo-li"><img class="head-logo" src="images/ttkhlogonowords.png" alt="TTKH Logo"></li>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="events.html">Events</a></li>
@@ -16,5 +16,16 @@
                 <li><a class="active" href="contact.html">Contact</a></li>
             </ul>
         </nav>
+
+        <form action="mailto:ttkhband@gmail.com" method="post" enctype="text/plain">
+            Name:<br>
+            <input type="text" name="name"><br>
+            E-mail:<br>
+            <input type="text" name="mail"><br>
+            Comment:<br>
+            <input type="text" name="comment" size="50"><br><br>
+            <input type="submit" value="Send">
+            <input type="reset" value="Reset">
+            </form>
     </body>
 </html>

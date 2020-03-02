@@ -63,7 +63,7 @@ nav ul li a {
     position: relative;
     opacity: 40%;
     animation: fadeout 4s;
-    background-image: url("images/ttkhbigstage.jpg");
+    background-image: url("../images/ttkhbigstage.jpg");
     min-height: 800px;
 
     background-attachment: fixed;

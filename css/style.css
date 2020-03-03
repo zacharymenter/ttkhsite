@@ -57,14 +57,13 @@ main {
     background-color: black;
     display: flex;
     flex-direction: column;
-    flex-grow: 1;
 }
 
 .parallax {
     opacity: 40%;
     animation: fadeout 4s;
     background-image: url("../images/ttkhbigstage.jpg");
-    min-height: 800px;
+    min-height: 100vh;
 
     background-attachment: fixed;
     background-position: center;
@@ -74,7 +73,7 @@ main {
 
 .logo {
     position: absolute;
-    width: 40%;
+    width: 40vw;
     align-self: center;
     top: 30vh;
 

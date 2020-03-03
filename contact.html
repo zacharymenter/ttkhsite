@@ -17,9 +17,17 @@
             </ul>
         </nav>
 
-        <form method="post" action="contact.php">
-            <textarea name="message"></textarea>
-            <input type="submit">
+        <form method="post" action="https://ttkhband.duckdns.org:8443/contact.php">
+            <label>Name:</label>
+            <input name="sender">
+
+            <label>Email address:</label>
+            <input name="senderEmail">
+
+            <label>Message:</label>
+            <textarea rows="5" cols="20" name="message"></textarea>
+
+            <input type="submit" name="submit">
         </form>
     </body>
 </html>

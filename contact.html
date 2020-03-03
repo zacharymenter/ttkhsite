@@ -17,17 +17,10 @@
             </ul>
         </nav>
 
-        <form method="post" action="https://ttkhband.duckdns.org:8443/contact.php">
-            <label>Name:</label>
-            <input name="sender">
-
-            <label>Email address:</label>
-            <input name="senderEmail">
-
-            <label>Message:</label>
-            <textarea rows="5" cols="20" name="message"></textarea>
-
-            <input type="submit" name="submit">
-        </form>
+        <form action="mailto:zachary_menter@hotmail.com" method="POST" enctype="multipart/form-data" name="EmailForm">
+        Name:<br>
+        <input type="text" size="19" name="ContactName"><br><br>
+        Message:<br> <textarea name="ContactCommentt" rows="6" cols="20">
+        </textarea><br><br> <input type="submit" value="Submit"> </form>
     </body>
 </html>

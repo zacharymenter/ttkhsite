@@ -150,19 +150,65 @@ main {
     top: 30px;
 }
 
-.gallery {
+.photo-block {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
     background-color: black;
-    padding: 20px;
-    margin: auto;
-    width: 1200px;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
     box-shadow: 0px 0px 20px black;
+    border: rgb(188, 46, 46) ridge 8px;
 }
 
-.gallery-img { 
-    height: 200px;
-    margin: 10px;
-    border: 2px darkgray solid;
+.gallery {
+    padding-top: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.gallery-img {
+    width: 30%;
+    height: 30%;
+    margin-bottom: 2%;
+    border: rgb(61, 61, 61) solid 4px;
+    border-radius: 8px;
+}
+
+.carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 65vh;
+    width: 100%;
+    border-bottom: rgb(188, 46, 46) ridge 8px;
+}
+
+.navigation-button {
+    position: absolute;
+    z-index: 1;
+    color: white;
+    font-size: 5vw;
+}
+
+#photo {
+    height: 100%;
+}
+
+#previous-button {
+    left: 2vw;
+}
+
+#next-button {
+    right: 2vw;
+}
+
+.navigation-button:hover {
+    cursor: pointer;
+    color: lightgray;
 }

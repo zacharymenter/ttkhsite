@@ -167,16 +167,15 @@ main {
     padding-top: 2%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: center;
+    justify-content: space-around;
 }
 
 .gallery-img {
-    width: 30%;
-    height: 30%;
+    object-fit: cover;
+    height: 30vh;
+    width: 30vh;
     margin-bottom: 2%;
-    border: rgb(61, 61, 61) solid 4px;
-    border-radius: 8px;
+    border: rgb(196, 196, 196) ridge 2px;
 }
 
 .carousel {

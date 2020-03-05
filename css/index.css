@@ -1,0 +1,96 @@
+main {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+.parallax {
+    opacity: 40%;
+    animation: fadeout 4s;
+    background-image: url("../images/ttkhbigstage.jpg");
+    min-height: 100vh;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo {
+    position: absolute;
+    width: 40vw;
+    align-self: center;
+    top: 30vh;
+
+    animation: fadein 4s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@keyframes fadeout {
+    from { opacity: 80%; }
+    to   { opacity: 40%; }
+}
+
+.info-box-white, .info-box-black {
+    display: flex;
+    flex-direction: row;
+}
+
+.info-box-white {
+    justify-content: flex-start;
+    background-color: white;
+    border-left: solid rgb(188, 46, 46) 4px;
+}
+
+.info-box-black {
+    justify-content: flex-end;
+    background-color: black;
+    color: white;
+    border-right: solid rgb(188, 46, 46) 4px;
+}
+
+.info-img {
+    height: 18vw;
+}
+
+.info-box-text {
+    display: flex;
+    flex-direction: column;
+
+    padding: 2%;
+    font-size: 1.5vw;
+    padding-right: 4%;
+}
+
+.info-p {
+    padding-top: 2%;
+}
+
+.active {
+    background-color: rgb(188, 46, 46);
+    color: white;
+}
+
+.info-box-link-b {
+    align-self: flex-end;
+    padding: 1%;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border: solid rgb(39, 39, 39) 4px;
+    top: 30px;
+}
+
+.info-box-link-w {
+    align-self: flex-end;
+    padding: 1%;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    border: solid rgb(202, 202, 202) 4px;
+    top: 30px;
+}

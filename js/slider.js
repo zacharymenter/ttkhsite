@@ -1,14 +1,12 @@
 const urls = [
-    'images/angp.jpg',
-    'images/bjmf.jpg',
-    'images/firetruck.jpg',
-    'images/tobyweird.jpg',
+    'images/TTKH-5.jpg',
+    'images/thebarn.jpg',
+    'images/bjmf1.jpg',
+    'images/mixer.jpg',
 ];
 
-// The index (serial number) of the current image
 let i = 0;
       
-// Grab handles onto HTML elements.
 const previousButton = document.getElementById('previous-button');
 const nextButton = document.getElementById('next-button');
 const photo = document.getElementById('photo');

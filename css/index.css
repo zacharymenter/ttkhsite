@@ -70,11 +70,6 @@ main {
     padding-top: 2%;
 }
 
-.active {
-    background-color: rgb(188, 46, 46);
-    color: white;
-}
-
 .info-box-link-b {
     align-self: flex-end;
     padding: 1%;

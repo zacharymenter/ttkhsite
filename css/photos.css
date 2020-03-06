@@ -63,7 +63,7 @@
 
 .gallery-img:hover {
     cursor: pointer;
-    opacity: .8;
+    opacity: .7;
 }
 
 .modal {
@@ -83,9 +83,9 @@
 .modal-content {
     margin: auto;
     display: block;
-    width: 60%;
-    max-width: 800px;
-    animation: zoom 0.8s;
+    border: rgb(196, 196, 196) ridge 2px;
+    height: 90vh;
+    animation: zoom 0.5s;
 }
 
 @keyframes zoom {

@@ -11,7 +11,7 @@ function displayImg(img) {
 var j;
 for (j = 0; j < imgArr.length; j++) {
     const img = imgArr[j];
-    img.addEventListener('click', () => displayImg(img));
+    img.onclick = () => displayImg(img);
 }
                 
 const span = document.getElementsByClassName("close-cursor")[0];

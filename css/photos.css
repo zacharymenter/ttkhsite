@@ -7,7 +7,7 @@
     margin-bottom: 10px;
     margin-left: auto;
     margin-right: auto;
-    width: 70%;
+    width: 75%;
     box-shadow: 0px 0px 20px black;
     border: rgb(188, 46, 46) ridge 8px;
 }
@@ -47,7 +47,7 @@
 }
 
 .gallery {
-    padding-top: 2%;
+    padding: 1%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -57,7 +57,7 @@
     object-fit: cover;
     height: 30vh;
     width: 30vh;
-    margin-bottom: 2%;
+    margin: 1%;
     border: rgb(196, 196, 196) ridge 2px;
 }
 

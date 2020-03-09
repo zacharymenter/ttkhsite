@@ -43,14 +43,14 @@ main {
 .info-box-white {
     justify-content: flex-start;
     background-color: white;
-    border-left: solid rgb(188, 46, 46) 4px;
+    border-left: ridge rgb(188, 46, 46) 8px;
 }
 
 .info-box-black {
     justify-content: flex-end;
     background-color: black;
     color: white;
-    border-right: solid rgb(188, 46, 46) 4px;
+    border-right: ridge rgb(188, 46, 46) 8px;
 }
 
 .info-img {

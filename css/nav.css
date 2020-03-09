@@ -57,3 +57,40 @@ nav ul li a {
     display: block;
     padding: 13px;
 }
+
+.social-nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-left: none;
+    padding: 0;
+}
+
+.social-nav a {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.social-nav a img {
+    width: 20px;
+}
+
+.social-nav a:hover {
+    opacity: 70%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    box-shadow: 0px 0px 20px black;
+    border: rgb(188, 46, 46) ridge 8px;
+    padding: 1%;
+}

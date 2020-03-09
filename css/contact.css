@@ -1,8 +1,9 @@
-.photo-block {
+.container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     background-color: black;
+    color: white;
     margin-top: 10px;
     margin-bottom: 10px;
     margin-left: auto;
@@ -10,4 +11,15 @@
     width: 70%;
     box-shadow: 0px 0px 20px black;
     border: rgb(188, 46, 46) ridge 8px;
+    padding: 1%;
+}
+
+.container h2 {
+    padding-bottom: 1%;
+}
+
+.form-button {
+    width: 4%;
+    height: 3%;
+    font-size: 12pt;
 }

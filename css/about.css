@@ -1,7 +1,7 @@
 .about-img {
     max-height: 60vh;
     object-fit: cover;
-    object-position: 50% 50%;
+    object-position: 50% 70%;
     border-bottom: ridge 8px rgb(188, 46, 46);
 }
 

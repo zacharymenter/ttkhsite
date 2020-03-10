@@ -31,7 +31,7 @@
 
 .member-img {
     object-fit: cover;
-    object-position: 50% 50%;
+    object-position: 50% 20%;
     width: 30%;
     height: 100%;
 }

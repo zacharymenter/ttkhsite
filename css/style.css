@@ -9,18 +9,23 @@
     color: white;
 }
 
-nav {
+header {
     position: sticky;
     top: 0;
     z-index: 1;
     box-shadow: 0px 0px 20px black;
+    background-color: black;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
+
 
 nav ul {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    background-color: black;
     align-items: center;
 }
 
@@ -38,17 +43,24 @@ nav ul li:hover {
 
 
 .head-logo {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
     min-width: 75px;
     width: 5%;
     
 }
 
-#logo-li {
+#logo-a {
     border-left: none;
     padding: 5px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    max-width: min-content;
+}
+
+#logo-a:hover {
+    opacity: .7;
 }
 
 nav ul li a {
@@ -72,7 +84,7 @@ nav ul li a {
 }
 
 .social-nav a img {
-    width: 20px;
+    width: 25px;
 }
 
 .social-nav a:hover {
@@ -83,8 +95,10 @@ nav ul li a {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    
     background-color: black;
     color: white;
+
     margin-top: 1%;
     margin-bottom: 1%;
     margin-left: auto;
@@ -92,5 +106,4 @@ nav ul li a {
     width: 75%;
     box-shadow: 0px 0px 20px black;
     border: rgb(188, 46, 46) ridge 8px;
-    padding: 1%;
 }

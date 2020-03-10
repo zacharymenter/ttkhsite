@@ -1,3 +1,61 @@
+.about-img {
+    max-height: 60vh;
+    object-fit: cover;
+    object-position: 50% 50%;
+    border-bottom: ridge 8px rgb(188, 46, 46);
+}
+
+.about-ttkh {
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    border-bottom: ridge 8px rgb(188, 46, 46);
+}
+
+.member-about {
+    display: flex;
+    flex-direction: column;
+}
+
+.member-left, .member-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 40vh;
+}
+
+.member-left {
+    background-color: white;
+    color: black;
+}
+
+.member-img {
+    object-fit: cover;
+    object-position: 50% 50%;
+    width: 30%;
+    height: 100%;
+}
+
+.member-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;    
+}
+
+h1 {
+    align-self: center;
+    padding-bottom: 1%;
+}
+
+.member-text > h2 {
+    align-self: center;
+}
+
+p {
+    font-size: large;
+}
+
 iframe {
     width: 300;
     height: 250;

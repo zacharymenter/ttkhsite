@@ -13,10 +13,10 @@
 }
 
 .carousel {
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
     height: 70vh;
     width: 100%;
     border-bottom: rgb(188, 46, 46) ridge 8px;
@@ -30,9 +30,10 @@
 }
 
 #photo {
-    height: auto;
-    max-height: 100%;
-    max-width: 100%;
+    object-fit: cover;
+    object-position: 50% 50%;
+    width: 100%;
+    height: 100%;
 }
 
 #previous-button {

@@ -43,14 +43,12 @@ main {
 .info-box-white {
     justify-content: flex-start;
     background-color: white;
-    border-left: ridge rgb(188, 46, 46) 8px;
 }
 
 .info-box-black {
     justify-content: flex-end;
     background-color: black;
     color: white;
-    border-right: ridge rgb(188, 46, 46) 8px;
 }
 
 .info-img {
@@ -88,4 +86,14 @@ main {
     text-decoration: none;
     border: solid rgb(202, 202, 202) 4px;
     top: 30px;
+}
+
+.test {
+    /* top: 100%; */
+    /* position: absolute; */
+    justify-self: center;
+    align-self: center;
+    border: ridge 8px rgb(188, 46, 46);
+    /* width: 95%; */
+    box-shadow: 0px 0px 20px black;
 }

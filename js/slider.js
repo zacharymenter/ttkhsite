@@ -1,8 +1,7 @@
 const urls = [
-    'images/TTKH-5.jpg',
+    'images/bjmf2.jpg',
+    'images/theplus01.jpg',
     'images/thebarn.jpg',
-    'images/bjmf1.jpg',
-    'images/mixer.jpg',
 ];
 
 let i = 0;

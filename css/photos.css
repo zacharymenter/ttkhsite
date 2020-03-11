@@ -24,7 +24,7 @@
 
 .navigation-button {
     position: absolute;
-    z-index: .9;
+    z-index: 1;
     color: white;
     font-size: 5vw;
 }

@@ -6,7 +6,7 @@ main {
 
 .parallax {
     opacity: 40%;
-    animation: fadeout 4s;
+    animation: fadeout 3s;
     background-image: url("../images/ttkhbigstage.jpg");
     min-height: 100vh;
 
@@ -22,7 +22,7 @@ main {
     align-self: center;
     top: 30vh;
 
-    animation: fadein 4s;
+    animation: fadein 3s;
 }
 
 @keyframes fadein {
@@ -35,47 +35,17 @@ main {
     to   { opacity: 40%; }
 }
 
-.info-box-white, .info-box-black {
-    display: flex;
-    flex-direction: row;
-}
-
-.info-box-white {
-    justify-content: flex-start;
-    background-color: white;
-}
-
-.info-box-black {
-    justify-content: flex-end;
-    background-color: black;
-    color: white;
-}
-
-.info-img {
-    height: 18vw;
-}
-
-.info-box-text {
-    display: flex;
-    flex-direction: column;
-
-    padding: 2%;
-    font-size: 1.5vw;
-    padding-right: 4%;
-}
-
-.info-p {
-    padding-top: 2%;
-}
-
 .info-box-link-b {
     align-self: flex-end;
     padding: 1%;
     background-color: black;
     color: white;
     text-decoration: none;
-    border: solid rgb(39, 39, 39) 4px;
+    box-shadow: 0px 0px 5px black;
     top: 30px;
+    min-width: 10%;
+    text-align: center;
+    font-weight: bold;
 }
 
 .info-box-link-w {
@@ -84,8 +54,15 @@ main {
     background-color: white;
     color: black;
     text-decoration: none;
-    border: solid rgb(202, 202, 202) 4px;
+    box-shadow: 0px 0px 5px white;
     top: 30px;
+    min-width: 12%;
+    text-align: center;
+    font-weight: bold;
+}
+
+.info-box-link-b:hover, .info-box-link-w:hover {
+    opacity: .7;
 }
 
 .test {

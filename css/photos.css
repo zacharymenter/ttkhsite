@@ -7,7 +7,7 @@
     margin-bottom: 1%;
     margin-left: auto;
     margin-right: auto;
-    width: 77%;
+    width: 83%;
     box-shadow: 0px 0px 20px black;
     border: rgb(188, 46, 46) ridge 8px;
 }
@@ -58,8 +58,8 @@
 
 .gallery-img {
     object-fit: cover;
-    height: 30vh;
-    width: 30vh;
+    height: 35vh;
+    width: 35vh;
     margin: 1%;
     border: rgb(196, 196, 196) ridge 2px;
 }

@@ -73,7 +73,7 @@
     display: none;
     position: fixed;
     z-index: 1;
-    padding-top: 50px;
+    padding-top: 5vh;
     left: 0;
     top: 0;
     width: 100%;
@@ -83,11 +83,16 @@
     background-color: rgba(0, 0, 0, 0.9);
 }
 
+.modal.on {
+    display: block;
+}
+
 .modal-content {
     margin: auto;
     display: block;
     border: rgb(196, 196, 196) ridge 2px;
-    height: 90vh;
+    max-height: 90vh;
+    max-width: 90vw;
     animation: zoom 0.5s;
 }
 

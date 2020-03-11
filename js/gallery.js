@@ -1,21 +1,26 @@
-const modal = document.getElementById("my-modal");
+const modal = document.getElementById('my-modal');
 
-const imgArr = document.getElementsByClassName("gallery-img");
-const modalImg = document.getElementById("modal-img");
-
-function displayImg(img) {
-    modal.style.display = "block";
-    modalImg.src = img.src;
-}
+const imgArr = document.getElementsByClassName('gallery-img');
+const modalImg = document.getElementById('modal-img');
 
 var j;
 for (j = 0; j < imgArr.length; j++) {
     const img = imgArr[j];
-    img.onclick = () => displayImg(img);
+    img.addEventListener('click', e => {
+        modal.classList.toggle('on');
+        modalImg.src = img.src;
+        e.preventDefault();
+        e.stopPropagation();
+        e.stopImmediatePropagation();
+    });
 }
                 
-const span = document.getElementsByClassName("close-cursor")[0];
+const span = document.getElementsByClassName('close-cursor')[0];
         
-span.onclick = function() {
-    modal.style.display = "none";
-} 
+span.addEventListener('click', () => {
+    modal.classList.remove('on');
+});
+
+document.addEventListener('click', () => {
+    modal.classList.remove('on')
+});

@@ -38,6 +38,7 @@ main {
 .info-box-link-b {
     align-self: flex-end;
     padding: 1%;
+    margin-top: 1%;
     background-color: black;
     color: white;
     text-decoration: none;
@@ -51,6 +52,7 @@ main {
 .info-box-link-w {
     align-self: flex-end;
     padding: 1%;
+    margin-top: 1%;
     background-color: white;
     color: black;
     text-decoration: none;
@@ -72,5 +74,13 @@ main {
 @media (max-width: 800px) {
     .info-box-link-b, .info-box-link-w {
         min-width: 6%;
+    }
+
+    .logo {
+        width: 319px;
+    }
+
+    .border {
+        border-bottom: none;
     }
 }

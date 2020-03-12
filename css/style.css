@@ -94,7 +94,7 @@ nav ul li a {
 .info-box-white, .info-box-black {
     display: flex;
     flex-direction: row;
-    height: 16vw;
+    
 }
 
 .info-box-white {
@@ -112,7 +112,6 @@ nav ul li a {
 .info-img {
     object-fit: cover;
     width: 30%;
-    height: 100%;
     object-position: 50% 20%;
 }
 
@@ -121,7 +120,7 @@ nav ul li a {
     flex-direction: column;
 
     padding: 2%;
-    font-size: 1.5vw;
+    font-size: 3.8vh;
     padding-right: 4%;
 }
 
@@ -149,13 +148,16 @@ nav ul li a {
 
 @media (max-width: 800px) {
     .info-box-black, .info-box-white {
-        height: 30vh;
         flex-direction: column;
-        flex-grow: 1;
+        border-bottom: rgb(188, 46, 46) ridge 8px;
     }
 
     .info-img {
-        height: 20vh;
+        height: 40vw;
         width: 100%;
+    }
+
+    .parallax {
+        height: 60vh;
     }
 }

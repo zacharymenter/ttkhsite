@@ -55,7 +55,6 @@ main {
     color: black;
     text-decoration: none;
     box-shadow: 0px 0px 5px white;
-    top: 30px;
     min-width: 12%;
     text-align: center;
     font-weight: bold;
@@ -65,12 +64,13 @@ main {
     opacity: .7;
 }
 
-.test {
-    /* top: 100%; */
-    /* position: absolute; */
-    justify-self: center;
-    align-self: center;
+.border {
     border: ridge 8px rgb(188, 46, 46);
-    /* width: 95%; */
     box-shadow: 0px 0px 20px black;
+}
+
+@media (max-width: 800px) {
+    .info-box-link-b, .info-box-link-w {
+        min-width: 6%;
+    }
 }

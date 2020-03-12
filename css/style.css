@@ -122,7 +122,6 @@ nav ul li a {
 
     padding: 2%;
     font-size: 1.5vw;
-    text-overflow: ellipsis;
     padding-right: 4%;
 }
 
@@ -146,4 +145,17 @@ nav ul li a {
     width: 80%;
     box-shadow: 0px 0px 20px black;
     border: rgb(188, 46, 46) ridge 8px;
+}
+
+@media (max-width: 800px) {
+    .info-box-black, .info-box-white {
+        height: 30vh;
+        flex-direction: column;
+        flex-grow: 1;
+    }
+
+    .info-img {
+        height: 20vh;
+        width: 100%;
+    }
 }

@@ -38,6 +38,10 @@
     font-size: 1.3vw;
 }
 
+.info-img {
+    height: 15vw;
+}
+
 iframe {
     margin-top: 2%;
     align-self: center;

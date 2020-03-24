@@ -7,7 +7,7 @@
 }
 
 form {
-    font-family: serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: x-large;
 }
 
@@ -43,8 +43,12 @@ form {
 }
 
 #thank {
-    font-family: serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: large;
     padding-top: 1%;
     display: none;
+}
+
+#message {
+    resize: none;
 }

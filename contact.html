@@ -29,13 +29,13 @@
         <div class="container">
             <h1>Send an e-mail to Through The Kitchen Hole:</h1>
 
-            <form action="mailto:ttkhband@gmail.com" method="post" enctype="text/plain">
+            <form action="mailto:ttkhband@gmail.com" method="post" enctype="text/plain" id="userform">
             Name:<br>
             <input type="text" name="name"><br><br>
             E-mail:<br>
             <input type="text" name="mail"><br><br>
             Message:<br>
-            <input type="text" name="comment" size="50"><br><br>
+            <textarea id="message" rows="6" cols="80" name="message" form="userform"></textarea><br><br>
             <input class="form-button" id="submit-button" type="submit" value="Send">
             <input class="form-button" id="reset-button" type="reset" value="Reset">
             </form>

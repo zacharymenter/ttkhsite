@@ -67,7 +67,7 @@ nav ul li a {
     color: inherit;
     text-decoration: none;
     display: block;
-    padding: 13px;
+    padding: 12px;
 }
 
 .social-nav {
@@ -94,7 +94,6 @@ nav ul li a {
 .info-box-white, .info-box-black {
     display: flex;
     flex-direction: row;
-    
 }
 
 .info-box-white {
@@ -126,7 +125,7 @@ nav ul li a {
 
 .info-p {
     padding-top: 2%;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .container {

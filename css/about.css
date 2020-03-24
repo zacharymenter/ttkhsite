@@ -14,7 +14,7 @@
     flex-direction: column;
     border-bottom: ridge 8px rgb(188, 46, 46);
     font-size: 1.5vw;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .about-ttkh > p, .about-ttkh > p > i {
@@ -37,11 +37,12 @@
 .info-box-text > h1 {
     font-size: 2vw;
     max-width: max-content;
+    border-bottom: 1px rgb(188, 46, 46) solid;
 }
 
 .info-box-text {
     font-size: 1.3vw;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .info-img {
@@ -60,7 +61,6 @@ iframe {
     .container {
         margin: 0;
         border: none;
-        //border-top: rgb(188, 46, 46) 12px ridge;
         width: 100%;
     }
 

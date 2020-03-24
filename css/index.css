@@ -74,13 +74,21 @@ main {
 @media (max-width: 800px) {
     .info-box-link-b, .info-box-link-w {
         min-width: 6%;
+        margin-top: 5%;
+        align-self: flex-start;
+        margin-bottom: 5%;
     }
 
     .logo {
         width: 319px;
     }
 
+    .parallax {
+        min-height: 50vh;
+    }
+
     .border {
-        border-bottom: none;
+        border: none;
+        border-top: ridge 12px rgb(188, 46, 46);
     }
 }

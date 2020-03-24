@@ -5,9 +5,9 @@
 .container > h1 {
     text-align: center;
 
-    padding-bottom: 1%;
+    padding-bottom: 2%;
     padding-top: 3%;
-    font-size: 30pt;
+    font-size: 2.2vw;
 }
 
 #past {
@@ -40,8 +40,34 @@
     padding: 8px;
     margin: 4px;
     justify-self: flex-end;
+    box-shadow: 0px 0px 5px white;
 }
 
 .event > a:hover {
     opacity: .7;
+}
+
+@media (max-width: 800px) {
+    .container {
+        width: 100%;
+        border: none;
+        margin: 0;
+    }
+
+    .container > h1 {
+        font-size: 8vw;
+    }
+
+    .event > h2 {
+        width: 100%;
+        margin-right: 4%;
+        font-size: 3.5vw;
+    }
+
+    .event > a {
+        font-size: 3.5vw;
+        padding-top: 0;
+        padding-bottom: 0;
+        margin-left: 0;
+    }
 }

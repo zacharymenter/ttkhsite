@@ -117,7 +117,7 @@
   cursor: pointer;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
     .photo-block {
         width: 100%;
         border: none;

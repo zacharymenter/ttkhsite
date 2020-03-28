@@ -156,7 +156,7 @@ nav > ul > li > a {
     border: rgb(188, 46, 46) ridge 8px;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
     header {
         display: flex;
         flex-direction: row;

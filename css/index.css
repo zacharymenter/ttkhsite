@@ -67,7 +67,8 @@ main {
 }
 
 .border {
-    border: ridge 8px rgb(188, 46, 46);
+    border-top: ridge 8px rgb(188, 46, 46);
+    border-bottom: ridge 8px rgb(188, 46, 46);
     box-shadow: 0px 0px 20px black;
 }
 

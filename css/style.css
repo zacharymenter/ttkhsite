@@ -7,9 +7,6 @@
 #menu-button {
     display: none;
     padding: 10px;
-    align-self: flex-end;
-    align-items: center;
-    justify-content: center;
 }
 
 nav > ul > li:active, .active {
@@ -169,6 +166,10 @@ nav > ul > li > a {
 
     #menu-button {
         display: flex;
+        align-items: center;
+        justify-content: center;
+        align-self: center;
+        justify-self: center;
     }
 
     nav {

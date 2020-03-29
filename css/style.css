@@ -156,7 +156,7 @@ nav > ul > li > a {
     border: rgb(188, 46, 46) ridge 8px;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
     header {
         display: flex;
         flex-direction: row;
@@ -220,15 +220,26 @@ nav > ul > li > a {
     }
 
     .info-box-text {
+        font-size: 5vh;
+    }
+
+    .info-img {
+        height: 90vh;
+        width: 100%;
+    }
+
+    .parallax {
+        height: 70vh;
+    }
+}
+
+@media (max-width: 600px) {
+    .info-box-text {
         font-size: 5vw;
     }
 
     .info-img {
         height: 55vw;
         width: 100%;
-    }
-
-    .parallax {
-        height: 70vh;
     }
 }

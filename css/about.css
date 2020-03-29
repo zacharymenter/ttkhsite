@@ -5,7 +5,7 @@
 .about-img {
     max-height: 60vh;
     object-fit: cover;
-    object-position: 50% 70%;
+    object-position: 50% 60%;
 }
 
 .about-ttkh {
@@ -47,6 +47,7 @@
 
 .info-img {
     height: 17vw;
+    object-position: 0% 14%;
 }
 
 iframe {
@@ -57,7 +58,7 @@ iframe {
     border: none;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
     .container {
         margin: 0;
         border: none;
@@ -69,13 +70,13 @@ iframe {
     }
 
     .about-ttkh > h1 {
-        font-size: 6vw;
+        font-size: 8vh;
         padding-top: 5%;
-        margin-bottom: 5%;
+        margin-bottom: 3%;
     }
 
     .about-ttkh {
-        font-size: 5vw;
+        font-size: 5vh;
         border-bottom: rgb(188, 46, 46) ridge 12px;
     }
 
@@ -85,21 +86,43 @@ iframe {
     }
 
     .info-box-text > h1 {
-        font-size: 6vw;
+        font-size: 6vh;
         padding-bottom: 2px;
-        margin-bottom: 2%;
+        margin-bottom: 1%;
         border-bottom: 1px rgb(188, 46, 46) solid;
     }
 
     .info-img {
-        height: 60vw;
+        height: 80vh;
+    }
+
+    .info-box-text {
+        font-size: 5vh;
+    }
+
+    .info-p {
+        padding-bottom: 2%;
+    }
+}
+
+@media (max-width: 600px) {
+    .about-ttkh > h1 {
+        font-size: 6vw;
+    }
+    
+    .about-ttkh {
+        font-size: 5vw;
     }
 
     .info-box-text {
         font-size: 5vw;
     }
 
-    .info-p {
-        padding-bottom: 2%;
+    .info-box-text > h1 {
+        font-size: 6vw;
+    }
+
+    .info-img {
+        height: 60vw;
     }
 }

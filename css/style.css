@@ -220,16 +220,16 @@ nav > ul > li > a {
     }
 
     .info-box-text {
-        font-size: 5vh;
+        font-size: 5.5vh;
     }
 
     .info-img {
-        height: 90vh;
+        height: 80vh;
         width: 100%;
     }
 
     .parallax {
-        height: 70vh;
+        height: 75vh;
     }
 }
 

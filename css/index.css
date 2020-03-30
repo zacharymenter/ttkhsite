@@ -112,12 +112,12 @@ main {
     }
 
     .parallax {
-        min-height: 50vh;
-        max-height: 50vh;
+        min-height: 45vh;
+        max-height: 45vh;
 
         background-image: url("../images/theplus03.jpg");
         background-size: contain;
-        background-position: 0 -30%;
+        background-position: 0 -26%;
 
         animation-delay: 1s;
     }

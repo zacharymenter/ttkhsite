@@ -92,6 +92,8 @@ main {
 
     .parallax {
         min-height: 70vh;
+
+        background-position: 0% -600%;
     }
 
     .border {

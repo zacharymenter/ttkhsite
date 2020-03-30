@@ -117,7 +117,7 @@
   cursor: pointer;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
     .photo-block {
         width: 100%;
         border: none;
@@ -127,7 +127,9 @@
     .carousel {
         display: none;
     }
+}
 
+@media (max-width: 600px) {
     .gallery-img {
         height: 42vw;
         width: 42vw;

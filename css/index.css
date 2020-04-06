@@ -116,9 +116,6 @@ main {
         max-height: 45vh;
 
         background-image: url("../images/theplus03.jpg");
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
         background-size: contain;
         background-position: 0 -7vh;
 

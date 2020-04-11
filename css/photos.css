@@ -91,7 +91,7 @@
 .modal-content {
     display: block;
     border: rgb(196, 196, 196) ridge 2px;
-    max-height: 95vh;
+    max-height: 90vh;
     max-width: 90vw;
     animation: zoom 0.5s;
 }

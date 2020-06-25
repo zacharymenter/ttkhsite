@@ -71,6 +71,7 @@ form {
     }
 
     p {
+        padding-top: 3%;
         font-size: 3.5vh;
     }
 
@@ -95,12 +96,6 @@ form {
     }
 
     .form-button {
-        font-size: 3vw;
-    }
-}
-
-@media (max-width: 600px) {
-    .form-button {
-        font-size: 3vh;
+        display: none;
     }
 }

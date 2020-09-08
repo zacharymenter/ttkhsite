@@ -7,7 +7,7 @@
     padding-bottom: 0;
 }
 
-p {
+.container > p {
     font-size: 1.3vw;
     padding: 2%;
     padding-bottom: 0;
@@ -65,12 +65,17 @@ form {
     resize: none;
 }
 
+footer {
+    position: absolute;
+    bottom: 0;
+}
+
 @media (max-width: 1000px) {
     body {
         background-color: black;
     }
 
-    p {
+    .container > p {
         padding-top: 3%;
         font-size: 3.5vh;
     }

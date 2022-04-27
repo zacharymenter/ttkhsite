@@ -123,7 +123,7 @@
   cursor: pointer;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1024px) {
     .photo-block {
         width: 100%;
         border: none;
@@ -136,9 +136,13 @@
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
     .gallery-img {
         height: 42vw;
         width: 42vw;
     }
+}
+
+@media (max-width: 480px) {
+
 }

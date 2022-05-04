@@ -115,7 +115,7 @@ nav > ul > li > a:hover {
 .info-box-white, .info-box-black {
     display: flex;
     flex-direction: row;
-    height: 30vh;
+    height: 35vh;
 }
 
 .info-box-white {
@@ -168,6 +168,8 @@ nav > ul > li > a:hover {
 }
 
 footer {
+    left: 0;
+    right: 0;
     padding: 1%;
     background-color: black;
     color: white;

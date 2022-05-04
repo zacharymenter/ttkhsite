@@ -181,7 +181,7 @@ footer {
     /* Nav Bar Header */
     header {
         align-items: center;
-        padding: 1%;
+        padding: 2%;
     }
 
     /* Nav Bar */
@@ -189,8 +189,6 @@ footer {
         display: flex;
         align-self: center;
         justify-self: center;
-
-        padding: 2%;
     }
 
     nav {
@@ -199,7 +197,7 @@ footer {
         right: 0;
         top: 100%;
 
-        max-height: 100vh;
+        max-height: 70vh;
         overflow-y: scroll;
         -webkit-overflow-scrolling: touch;
     
@@ -277,6 +275,11 @@ footer {
     }
 
     @media (max-width: 480px) {
+        header {
+            align-items: center;
+            padding: 4%;
+        }
+
         .info-box-text {
             font-size: 4.5vw;
         }

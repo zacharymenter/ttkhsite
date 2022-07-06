@@ -41,6 +41,13 @@ main {
     to   { opacity: 40%; }
 }
 
+.announcement {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+}
+
 .info-box-link-b {
     align-self: flex-end;
     padding: 1%;

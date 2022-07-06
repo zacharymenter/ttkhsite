@@ -103,6 +103,12 @@ main {
         background-position: 0% -10%;
     }
 
+    .announcement {
+        flex-direction: column;
+        border-bottom: rgb(188, 46, 46) ridge 12px;
+        height: fit-content;
+    }
+
     .border {
         border: none;
         border-top: ridge 12px rgb(188, 46, 46);

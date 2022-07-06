@@ -46,7 +46,6 @@ main {
     color: white;
     display: flex;
     flex-direction: row;
-    max-height: 35vh;
 }
 
 .info-box-link-b {

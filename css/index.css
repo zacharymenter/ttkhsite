@@ -109,6 +109,10 @@ main {
         border-bottom: rgb(188, 46, 46) ridge 12px;
     }
 
+    .tickcounter {
+        height: fit-content;
+    }
+
     .border {
         border: none;
         border-top: ridge 12px rgb(188, 46, 46);

@@ -64,7 +64,7 @@ main {
 }
 
 .info-box-link-w {
-    align-self: flex-end;
+    align-self: flex-start;
     padding: 1%;
     margin-top: 2%;
     background-color: white;

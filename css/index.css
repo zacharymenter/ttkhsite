@@ -41,6 +41,14 @@ main {
     to   { opacity: 40%; }
 }
 
+.announcement {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    height: 35vh;
+}
+
 .info-box-link-b {
     align-self: flex-end;
     padding: 1%;
@@ -56,7 +64,7 @@ main {
 }
 
 .info-box-link-w {
-    align-self: flex-end;
+    align-self: flex-start;
     padding: 1%;
     margin-top: 2%;
     background-color: white;
@@ -73,8 +81,8 @@ main {
 }
 
 .border {
-    border-top: ridge 8px rgb(188, 46, 46);
-    border-bottom: ridge 8px rgb(188, 46, 46);
+    border-top: ridge 12px rgb(188, 46, 46);
+    border-bottom: ridge 12px rgb(188, 46, 46);
     box-shadow: 0px 0px 20px black;
 }
 
@@ -94,6 +102,16 @@ main {
         min-height: 70vh;
 
         background-position: 0% -10%;
+    }
+
+    .announcement {
+        flex-direction: column;
+        border-bottom: rgb(188, 46, 46) ridge 12px;
+        height: min-content;
+    }
+
+    .tickcounter {
+        height: min-content;
     }
 
     .border {

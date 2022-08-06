@@ -115,6 +115,7 @@ nav > ul > li > a:hover {
 .info-box-white, .info-box-black {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     height: 35vh;
 }
 
@@ -131,6 +132,8 @@ nav > ul > li > a:hover {
 .info-box-text {
     display: flex;
     flex-direction: column;
+
+    width: 70%;
 
     padding: 2%;
     padding-right: 4%;

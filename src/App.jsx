@@ -15,7 +15,7 @@ export default function App() {
     <Suspense fallback={null}>
       <Routes>
         <Route element={<Layout />}>
-          <Route path="/" element={<HomePage />} title={"About | TTKH"} />
+          <Route path="/" element={<HomePage />} />
           <Route path="/about" element={<AboutPage />} />
           <Route path="/events" element={<EventsPage />} />
           <Route path="/photos" element={<PhotosPage />} />

@@ -1,12 +1,11 @@
 // Events page. Embeds the Bandsintown widget to display upcoming and past shows.
-import { Helmet } from 'react-helmet-async';
-import BandsintownWidget from '../components/BandsintownWidget';
-import '../css/events.css';
+import BandsintownWidget from "../components/BandsintownWidget";
+import "../css/events.css";
 
 export default function EventsPage() {
   return (
     <>
-      <Helmet>
+      {/* <Helmet>
         <title>Events | TTKH</title>
         <meta property="og:image" content="https://ttkhband.com/images/ttkhfulllogo.png" />
         <meta property="og:type" content="website" />
@@ -16,7 +15,7 @@ export default function EventsPage() {
           property="og:description"
           content="Stay up to date on Through The Kitchen Hole's upcoming events."
         />
-      </Helmet>
+      </Helmet> */}
 
       <div className="container">
         <BandsintownWidget />

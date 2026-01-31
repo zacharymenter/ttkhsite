@@ -1,13 +1,12 @@
 // Home page. Displays the parallax hero banner and four info boxes for music, about, events, and merch.
-import { Helmet } from 'react-helmet-async';
-import InfoBox from '../components/InfoBox';
-import { HOME_INFO_BOXES } from '../data/homeInfoBoxes';
-import '../css/index.css';
+import InfoBox from "../components/InfoBox";
+import { HOME_INFO_BOXES } from "../data/homeInfoBoxes";
+import "../css/index.css";
 
 export default function HomePage() {
   return (
     <>
-      <Helmet>
+      {/* <Helmet>
         <title>TTKH | Rock Band</title>
         <meta property="og:image" content="https://ttkhband.com/images/ttkhfulllogo.png" />
         <meta property="og:type" content="website" />
@@ -17,7 +16,7 @@ export default function HomePage() {
           property="og:description"
           content="Through The Kitchen Hole is a rock band based out of Eau Claire, WI."
         />
-      </Helmet>
+      </Helmet> */}
 
       <main>
         <div className="parallax"></div>

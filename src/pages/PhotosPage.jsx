@@ -1,13 +1,12 @@
 // Photos page. Shows a YouTube video embed and a thumbnail gallery with a lightbox modal.
-import { Helmet } from 'react-helmet-async';
-import YouTubeEmbed from '../components/YouTubeEmbed';
-import Gallery from '../components/Gallery';
-import '../css/photos.css';
+import YouTubeEmbed from "../components/YouTubeEmbed";
+import Gallery from "../components/Gallery";
+import "../css/photos.css";
 
 export default function PhotosPage() {
   return (
     <>
-      <Helmet>
+      {/* <Helmet>
         <title>Photos | TTKH</title>
         <meta property="og:image" content="https://ttkhband.com/images/ttkhfulllogo.png" />
         <meta property="og:type" content="website" />
@@ -17,7 +16,7 @@ export default function PhotosPage() {
           property="og:description"
           content="Photos of Through The Kitchen Hole."
         />
-      </Helmet>
+      </Helmet> */}
 
       <div className="photo-block">
         <div className="carousel">

@@ -1,12 +1,11 @@
 // Contact page. Displays the band email, a short message, and social media links.
-import { Helmet } from 'react-helmet-async';
-import { SOCIAL_LINKS } from '../data/socialLinks';
-import '../css/contact.css';
+import { SOCIAL_LINKS } from "../data/socialLinks";
+import "../css/contact.css";
 
 export default function ContactPage() {
   return (
     <>
-      <Helmet>
+      {/* <Helmet>
         <title>Contact | TTKH</title>
         <meta property="og:image" content="https://ttkhband.com/images/ttkhfulllogo.png" />
         <meta property="og:type" content="website" />
@@ -16,7 +15,7 @@ export default function ContactPage() {
           property="og:description"
           content="Get in touch with Through The Kitchen Hole."
         />
-      </Helmet>
+      </Helmet> */}
 
       <div className="container">
         <h1>Contact Through The Kitchen Hole</h1>
@@ -27,7 +26,12 @@ export default function ContactPage() {
 
         <div className="social-block">
           {SOCIAL_LINKS.map((link) => (
-            <a key={link.href} href={link.href} target="_blank" rel="noreferrer">
+            <a
+              key={link.href}
+              href={link.href}
+              target="_blank"
+              rel="noreferrer"
+            >
               <img src={link.img} alt={link.alt} />
             </a>
           ))}

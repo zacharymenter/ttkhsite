@@ -1,21 +1,21 @@
 // Top-level route definitions. All pages share the Layout wrapper.
 // Pages are lazy-loaded for per-route code splitting (bundle-dynamic-imports).
-import { lazy, Suspense } from 'react';
-import { Routes, Route } from 'react-router-dom';
-import Layout from './components/Layout';
+import { lazy, Suspense } from "react";
+import { Routes, Route } from "react-router-dom";
+import Layout from "./components/Layout";
 
-const HomePage = lazy(() => import('./pages/HomePage'));
-const AboutPage = lazy(() => import('./pages/AboutPage'));
-const EventsPage = lazy(() => import('./pages/EventsPage'));
-const PhotosPage = lazy(() => import('./pages/PhotosPage'));
-const ContactPage = lazy(() => import('./pages/ContactPage'));
+const HomePage = lazy(() => import("./pages/HomePage"));
+const AboutPage = lazy(() => import("./pages/AboutPage"));
+const EventsPage = lazy(() => import("./pages/EventsPage"));
+const PhotosPage = lazy(() => import("./pages/PhotosPage"));
+const ContactPage = lazy(() => import("./pages/ContactPage"));
 
 export default function App() {
   return (
     <Suspense fallback={null}>
       <Routes>
         <Route element={<Layout />}>
-          <Route path="/" element={<HomePage />} />
+          <Route path="/" element={<HomePage />} title={"About | TTKH"} />
           <Route path="/about" element={<AboutPage />} />
           <Route path="/events" element={<EventsPage />} />
           <Route path="/photos" element={<PhotosPage />} />

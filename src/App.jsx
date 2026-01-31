@@ -16,10 +16,22 @@ export default function App() {
       <Routes>
         <Route element={<Layout />}>
           <Route path="/" element={<HomePage />} />
-          <Route path="/about" element={<AboutPage />} />
-          <Route path="/events" element={<EventsPage />} />
-          <Route path="/photos" element={<PhotosPage />} />
-          <Route path="/contact" element={<ContactPage />} />
+          <Route path="/about" element={<AboutPage />} title={"About | TTKH"} />
+          <Route
+            path="/events"
+            element={<EventsPage />}
+            title={"Events | TTKH"}
+          />
+          <Route
+            path="/photos"
+            element={<PhotosPage />}
+            title={"Photos | TTKH"}
+          />
+          <Route
+            path="/contact"
+            element={<ContactPage />}
+            title={"Contact | TTKH"}
+          />
         </Route>
       </Routes>
     </Suspense>

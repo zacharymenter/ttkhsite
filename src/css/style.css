@@ -1,0 +1,295 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Nav Bar Header */
+header {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+
+  box-shadow: 0px 0px 20px black;
+  background-color: black;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* Nav Bar Logo */
+.head-logo {
+  min-width: 75px;
+  width: 5%;
+}
+
+#logo-a {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+
+  max-width: min-content;
+  padding: 5px;
+}
+
+#logo-a:hover {
+  opacity: 0.7;
+}
+
+/* Nav Bar */
+#menu-button {
+  display: none;
+}
+
+nav > ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav > ul > li {
+  list-style: none;
+  font-size: larger;
+  font-weight: bold;
+  border-left: 1px solid white;
+}
+
+nav > ul > li:active,
+.active {
+  background-color: rgb(188, 46, 46);
+}
+
+nav > ul > li > a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: 12px;
+}
+
+nav > ul > li > a:hover {
+  opacity: 0.7;
+}
+
+/* Social Nav */
+.social {
+  border: none;
+}
+
+.social:active {
+  background-color: black;
+}
+
+.social > ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.social > ul > li {
+  list-style: none;
+}
+
+.social-nav {
+  padding-right: 1.75vw;
+}
+
+.social-nav > a {
+  display: flex;
+  align-items: center;
+}
+
+.social-nav > a:hover {
+  opacity: 0.7;
+}
+
+.social-nav > a > img {
+  width: 30px;
+  height: 30px;
+}
+
+/* Info Boxes */
+.info-box-white,
+.info-box-black {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 35vh;
+}
+
+.info-box-white {
+  background-color: white;
+  color: black;
+}
+
+.info-box-black {
+  background-color: black;
+  color: white;
+}
+
+.info-box-text {
+  display: flex;
+  flex-direction: column;
+
+  width: 70%;
+
+  padding: 2%;
+  padding-right: 4%;
+
+  font-size: 1.2vw;
+}
+
+.info-p {
+  padding-top: 2%;
+}
+
+.info-img {
+  object-fit: cover;
+  object-position: 50% 20%;
+  width: 30%;
+}
+
+/* Misc */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  background-color: black;
+  color: white;
+
+  margin-top: 1%;
+  margin-bottom: 1%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  box-shadow: 0px 0px 20px black;
+  border: rgb(188, 46, 46) ridge 8px;
+}
+
+footer {
+  left: 0;
+  right: 0;
+  padding: 1%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  box-shadow: 0px 0px 10px black;
+}
+
+@media (max-width: 1024px) {
+  /* Nav Bar Header */
+  header {
+    align-items: center;
+    padding: 2%;
+  }
+
+  /* Nav Bar */
+  #menu-button {
+    display: flex;
+    align-self: center;
+    justify-self: center;
+  }
+
+  nav {
+    position: absolute;
+    display: none;
+    right: 0;
+    top: 100%;
+
+    max-height: 70vh;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  nav.open {
+    display: flex;
+  }
+
+  nav > ul {
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  nav > ul > li {
+    background-color: black;
+    border-left: none;
+    border-top: 1px solid white;
+
+    font-size: x-large;
+
+    width: 25vw;
+    min-width: 250px;
+  }
+
+  /* Social Nav */
+  .social:first-child {
+    order: 1;
+  }
+
+  .social > ul {
+    display: flex;
+    justify-content: space-evenly;
+
+    background-color: black;
+    border-top: 1px solid white;
+
+    width: 25vw;
+    min-width: 250px;
+  }
+
+  .social-nav {
+    padding: 5%;
+  }
+
+  .social-nav > a > img {
+    width: 35px;
+    height: 35px;
+  }
+
+  /* Info Boxes */
+  .info-box-black,
+  .info-box-white {
+    flex-direction: column;
+    border-bottom: rgb(188, 46, 46) ridge 12px;
+    height: fit-content;
+  }
+
+  .info-box-white div:first-child,
+  .info-box-black div:first-child {
+    order: 1;
+  }
+
+  .info-box-text {
+    font-size: 2.5vw;
+  }
+
+  .info-img {
+    width: 100%;
+  }
+
+  @media (max-width: 768px) {
+    .info-box-text {
+      font-size: 3.5vw;
+    }
+  }
+
+  @media (max-width: 480px) {
+    header {
+      align-items: center;
+      padding: 4%;
+    }
+
+    .info-box-text {
+      font-size: 4.5vw;
+    }
+  }
+}

@@ -1,0 +1,73 @@
+.container > h1 {
+    padding: 2%;
+    padding-bottom: 0;
+    font-size: 2.6vw;
+}
+
+.container > p {
+    font-size: 1.2vw;
+    padding: 2%;
+    padding-bottom: 0;
+}
+
+.social-block {
+    display: flex;
+    flex-direction: row;
+
+    padding: 2%;
+}
+
+.social-block > a {
+    margin-right: 2%;
+}
+
+.social-block > a > img {
+    width: 30px;
+}
+
+.social-block a:hover {
+    opacity: 70%;
+}
+
+@media (max-width: 1024px) {
+    body {
+        background-color: black;
+    }
+
+    .container > h1 {
+        font-size: 5vh;
+    }
+
+    .container > p {
+        padding-top: 3%;
+        font-size: 3.5vh;
+    }
+
+    .container {
+        top: 50%;
+        width: 100vw;
+        height: 100%;
+        border: none;
+        margin: 0;
+    }
+
+    .social-block {
+        padding-top: 3%;
+    }
+
+    .social-block > a {
+        margin-right: 5%;
+    }
+    
+    .social-block > a > img {
+        width: 40px;
+    }
+}
+
+@media (max-width: 768px) {
+    
+}
+
+@media (max-width: 480px) {
+
+}

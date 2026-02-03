@@ -38,7 +38,7 @@ export const HOME_INFO_BOXES = [
   {
     variant: 'white',
     title: 'Store',
-    text: 'Through The Kitchen Hole has many different kinds of merchandise for sale. From t-shirts to sweatshirts to baseball caps, you can find just the thing for you!',
+    text: 'Through The Kitchen Hole has many different kinds of merchandise for sale. T-shirts, sweatshirts, and more. You can find just the thing for you!',
     linkText: 'Shop Now',
     linkHref:
       'https://shop.spreadshirt.com/TTKHMerchandise?fbclid=IwAR1ZDCuIi2MMRMiZ2S1ThmJlKivUtkEGMHsQ7croT8_eIgwxnbvW-Da1jaQ',

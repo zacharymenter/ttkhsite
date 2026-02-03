@@ -10,7 +10,7 @@ export const MEMBER_PROFILES = [
   {
     variant: 'white',
     name: 'Katherine Altreuter',
-    bio: "Katherine is a classical and jazz violinist, bluegrass fiddler, and bassist from Eau Claire, Wisconsin. She first started studying violin with her father at the age of four. She joined Through The Kitchen Hole in 2018 as their bass player and has been with them ever since. In late 2026, Katherine took on the role of the band's lead vocalist.",
+    bio: "Katherine is a classical and jazz violinist, bluegrass fiddler, and bassist from Eau Claire, Wisconsin. She first started studying violin with her father at the age of four. She joined Through The Kitchen Hole in 2018 as their bass player and has been with them ever since. In late 2024, Katherine took on the role of the band's lead vocalist.",
     imgSrc: '/images/katebass.jpg',
     imgAlt: 'Kate playing bass',
     imagePosition: 'left',
